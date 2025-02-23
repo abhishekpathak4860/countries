@@ -1,0 +1,21 @@
+.button{
+    background-color: #ccc;
+}
+.img{
+    width: 495px;
+  height: 395px;
+  background-color: #ccc;
+}
+.head{
+background-color: #ccc;
+    width: 200px;
+    height: 30px;
+}
+
+
+.sub_firstBox .data, .sub_secondBox .data ,.second_box .data{
+    width: 215px;
+    height: 20px;
+    background-color: #ccc;
+    margin-top: 10px;
+}

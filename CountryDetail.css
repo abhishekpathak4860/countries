@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, sans-serif;
+}
+
+.title {
+    font-weight: bold;
+}
+
+header {
+    padding: 8px 24px;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 0 2px;
+ min-height: calc(100vh - 49px);
+}
+
+.backbutton {
+    max-width: 1200px;
+    /* margin: 42px auto; */
+    margin: 0px auto;
+}
+
+.backbutton .back {
+    margin-left: 75px;
+    padding: 6px 22px;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    /* background-color: #ccc; */
+}
+
+/* .maindiv-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.maindiv {
+    max-width: 1200px;
+    margin: 125px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img_content {
+    max-width: 495px;
+}
+
+.img_content img {
+    width: 100%;
+}
+
+.details_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.first_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub_firstBox {
+    margin-right: 92px;
+}
+
+.sub_firstBox p {
+    margin-top: 20px;
+}
+
+.sub_firstBox b {
+    font-weight: 600;
+    color: grey;
+}
+
+.sub_secondBox {
+    margin-bottom: 36px;
+}
+
+.sub_secondBox b {
+    font-weight: 600;
+    color: grey;
+}
+
+.sub_secondBox p+p {
+    margin-top: 20px;
+}
+
+.second_box {
+    display: flex;
+    margin-top: 80px;
+}
+
+.second_box a {
+    margin-left: 18px;
+    padding: 10px 12px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:1000px) {
+    .maindiv {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:650px) {
+
+    .img_content {
+        max-width: 295px;
+    }
+
+    .details_content {
+        max-width: 295px;
+    }
+
+    .first_box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub_firstBox {
+        margin-right: 0px;
+    }
+
+    .sub_firstBox p {
+        margin-top: 10px;
+    }
+
+    .sub_secondBox {
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+
+    .sub_secondBox p+p {
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 17px;
+    }
+}
