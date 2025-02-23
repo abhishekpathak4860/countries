@@ -2,7 +2,7 @@ import { useTheme } from "../hooks/useTheme";
 
 export default function Header() {
   // const [mode,setmode]=theme;
-  const [mode,setmode] = useTheme();
+  const [mode, setmode] = useTheme();
   // console.log(typeof JSON.parse(localStorage.getItem("isDarkMode")));
   // if(mode){
   //   document.body.classList.add("dark");
@@ -23,7 +23,6 @@ export default function Header() {
         <h2 className="title">Where in the worlds?</h2>
         <p className="mode-toggle" onClick={toggle}>
           <i className={mode ? "fa-regular fa-sun" : "fa-regular fa-moon"} /> {mode ? "Light Mode" : "Dark Mode"}
-
         </p>
       </div>
     </header>
