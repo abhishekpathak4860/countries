@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className={`${mode ? "dark" : ""}`}>
       <div className="header-content">
-        <h2 className="title">Where in the world?</h2>
+        <h2 className="title">Where in the worlds?</h2>
         <p className="mode-toggle" onClick={toggle}>
           <i className={mode ? "fa-regular fa-sun" : "fa-regular fa-moon"} /> {mode ? "Light Mode" : "Dark Mode"}
 
